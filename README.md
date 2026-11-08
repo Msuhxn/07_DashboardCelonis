@@ -20,7 +20,8 @@ This repository documents how we built process-mining dashboards in Celonis, fro
 .
 ├── README.md
 ├── docs/
-│   └── Runbook.md              Step-by-step guide (P1-01 to B3-14)
+│   ├── Runbook.md              Step-by-step guide (P1-01 to B3-14)
+│   └── AI_Usage.md             How we used AI and how we checked it
 ├── slides/
 │   └── Celonis_Seminar_Group07.pptx
 ├── data/
@@ -103,6 +104,10 @@ Part 3: object-centric data
 ```
 
 Total Cases, Cancellation Rate and Order to Delivery match Celonis exactly. The script measures throughput on the START TIME column, so its minimum is 3.32 days. The Celonis Throughput Time Explorer shows 3.38 days because the Celonis example model uses the END TIME of each event. With END TIME the script also gives a minimum of 3.38 days. The pizza variant count differs slightly (134 in pandas, 111 in Celonis) because 34 events share a timestamp with another event of the same case, and the order of tied events decides the variant.
+
+## AI use
+
+We used Claude (Anthropic) for documentation, explanations, data checks and slide design. All output was checked against the data. See [`docs/AI_Usage.md`](docs/AI_Usage.md).
 
 ## References
 
