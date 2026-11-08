@@ -85,7 +85,7 @@ def part3_object_centric():
     copies = e2o_item["event"].isin(place).sum()
     print(f"  'place order' events:   {len(place)} real, {copies} if item is the case (convergence)")
 
-    # Example order used on slide 31
+    # Example order used on slide 30
     example = "ord990001"
     its = set(items.loc[items["order"] == example, "object"])
     evs = set(e2o_item.loc[e2o_item["object"].isin(its), "event"])

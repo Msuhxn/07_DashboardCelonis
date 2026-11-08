@@ -22,7 +22,7 @@ This repository documents how we built process-mining dashboards in Celonis, fro
 ├── docs/
 │   └── Runbook.md              Step-by-step guide (P1-01 to B3-14)
 ├── slides/
-│   └── Celonis_Seminar_Group07_Final.pptx
+│   └── Celonis_Seminar_Group07.pptx
 ├── data/
 │   ├── pizza-log.csv           Part 1
 │   ├── table-10000-cases.xlsx  Part 2 (one row per order)
@@ -66,7 +66,7 @@ In Parts 1 and 2 every event belongs to one case. In the object-centric data one
 
 Why it matters: with items as the case, each `place order` event is copied once per item. 200 real events become 791 (convergence). Object-centric process mining stores each event once and links it to every object.
 
-![Throughput Time Explorer](screenshots/part3/slide29-throughput-time-explorer.jpg)
+![Throughput Time Explorer](screenshots/part3/slide28-throughput-time-explorer.jpg)
 
 ## PQL formulas
 
@@ -102,7 +102,7 @@ Part 3: object-centric data
   'place order' events:   200 real, 791 if item is the case (convergence)
 ```
 
-Total Cases, Cancellation Rate and Order to Delivery match Celonis exactly. The pizza variant count differs slightly (134 in pandas, 111 in Celonis) because 34 events share a timestamp with another event of the same case, and the order of tied events decides the variant.
+Total Cases, Cancellation Rate and Order to Delivery match Celonis exactly. The script measures throughput on the START TIME column, so its minimum is 3.32 days. The Celonis Throughput Time Explorer shows 3.38 days because the Celonis example model uses the END TIME of each event. With END TIME the script also gives a minimum of 3.38 days. The pizza variant count differs slightly (134 in pandas, 111 in Celonis) because 34 events share a timestamp with another event of the same case, and the order of tied events decides the variant.
 
 ## References
 

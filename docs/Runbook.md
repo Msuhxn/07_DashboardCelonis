@@ -343,7 +343,7 @@ The pizza log is the simplest dataset: one table with three columns. It teaches 
 1. In the Components panel search for Process Explorer (section Process visualizations).
 2. Drag it onto the canvas.
 
-**Expected result:** A graph: take order, create base, add mushrooms / cheese / tomato, bake in oven, eat pizza, clean kitchen. The log contains 1.28K cases.
+**Expected result:** A graph: take order, create base, add mushrooms / cheese / tomato / salami, bake in oven, eat pizza, clean kitchen. The log contains 1.28K cases.
 
 *Documentation: P1-11 rendered Process Explorer (full screen).*
 
@@ -637,7 +637,7 @@ The orders dataset has two tables (cases and events). This part covers the forei
 1. In Components open Process visualizations and drag Process Explorer into a box.
 2. Review the graph.
 
-**Expected result:** Nodes are business activities (place order, send invoice, confirm payment, make delivery, pay, prepare delivery, cancel order). If product names appear, repeat O2-05.
+**Expected result:** Nodes are business activities (place order, send invoice, send reminder, confirm payment, make delivery, pay, prepare delivery, cancel order). If product names appear, repeat O2-05.
 
 **If this occurs**
 
@@ -690,7 +690,7 @@ The orders dataset has two tables (cases and events). This part covers the forei
 3. Column 2: add a new column (+ or SHIFT + click on a tree item). Enter `COUNT("cases"."CASE")`, name it Case Count, click Done.
 4. Column 3: click Events then Resource, name it Resource, click Done.
 
-**Expected result:** A table of case counts per activity and resource (the count for place order is close to 10,000).
+**Expected result:** A table of case counts per activity and resource (the count for place order is exactly 10,000).
 
 **If this occurs**
 
@@ -771,7 +771,7 @@ The orders dataset has two tables (cases and events). This part covers the forei
 5. Set Name Cancellation Rate and Unit %. Click Done.
 6. Cross-check: the rate equals the number of cancel order occurrences in the OLAP table divided by 10,000 and multiplied by 100 (it equals the share of cancelled cases when a case is cancelled at most once).
 
-**Expected result:** Order to Delivery shows about 20.2 days, which matches the average of the Throughput Time Explorer in Part 3 (20.1 days). Cancellation Rate shows 12.48%, which fits the roughly 1.25K cancel order cases out of 10K cases shown in the Process Explorer.
+**Expected result:** Order to Delivery shows 20.17 days, which matches the average of the Throughput Time Explorer in Part 3 (20.1 days). Cancellation Rate shows 12.48%, which fits the roughly 1.25K cancel order cases out of 10K cases shown in the Process Explorer.
 
 **If this occurs**
 
@@ -1242,4 +1242,4 @@ With an aggregation such as COUNT, AVG or SUM. Example: `AVG(CALC_THROUGHPUT(FIR
 A viewpoint on object-centric data: which objects and events are included. After deployment Celonis generates a data model from it.
 
 **Q11. Case-centric versus object-centric process mining?**
-Case-centric assigns every event to one case, which can force events to be duplicated across cases (convergence) or merged (divergence). Object-centric links an event to all objects it involves, so these problems do not arise.
+Case-centric assigns every event to one case, which causes two problems. Convergence: one event is copied into many cases (with items as the case, one place order event appears once per item). Divergence: one case shows the same activity many times for different objects, which looks like a loop (pick item appears 10 times in one order). Object-centric links an event to all objects it involves, so these problems do not arise.
