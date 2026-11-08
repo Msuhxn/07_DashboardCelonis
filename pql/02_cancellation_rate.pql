@@ -1,0 +1,9 @@
+-- KPI: Cancellation Rate (%)
+-- Used in: Part 2 (O2-15). Slide 19.
+-- Share of orders that contain a 'cancel order' event.
+-- Numerator and denominator both use the events table.
+-- Taking the denominator from the cases table gives a wrong result (about 1.9).
+-- Result: 12.48%
+
+100 * SUM(CASE WHEN "events"."ACTIVITY" = 'cancel order' THEN 1 ELSE 0 END)
+    / COUNT(DISTINCT "events"."CASE")

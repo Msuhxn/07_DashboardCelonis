@@ -1,0 +1,792 @@
+object,productname,weight,price,customer,order
+itm880003,iPhone 11 Pro,0.188,1149.0,Luis Santos,ord990001
+itm880001,Echo Dot,0.38,29.99,Luis Santos,ord990001
+itm880005,iPhone 8,0.21,529.0,Luis Santos,ord990001
+itm880002,iPhone 11,0.166,799.0,Luis Santos,ord990001
+itm880006,MacBook Air,1.25,2200.0,Luis Santos,ord990001
+itm880007,MacBook Air,1.25,2200.0,Luis Santos,ord990001
+itm880010,MacBook Air,1.25,2200.0,Luis Santos,ord990001
+itm880008,iPhone 11,0.166,799.0,Luis Santos,ord990001
+itm880004,MacBook Air,1.25,2200.0,Luis Santos,ord990001
+itm880009,Echo Show 8,0.98,129.99,Luis Santos,ord990001
+itm880013,Echo Dot,0.38,29.99,Kefang Ding,ord990002
+itm880012,MacBook Air,1.25,2200.0,Kefang Ding,ord990002
+itm880011,Echo Show 8,0.98,129.99,Kefang Ding,ord990002
+itm880015,iPhone X,0.172,699.0,Kefang Ding,ord990003
+itm880014,Echo Studio,1.48,199.99,Kefang Ding,ord990003
+itm880017,Fire Stick,0.2,39.99,Kefang Ding,ord990003
+itm880016,iPad,0.483,495.0,Kefang Ding,ord990003
+itm880019,iPad Air,0.44,476.0,Christina Rensinghof,ord990004
+itm880018,Echo Show 8,0.98,129.99,Christina Rensinghof,ord990004
+itm880025,Echo Studio,1.48,199.99,Marco Pegoraro,ord990005
+itm880020,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990005
+itm880022,Echo Studio,1.48,199.99,Marco Pegoraro,ord990005
+itm880023,Echo Studio,1.48,199.99,Marco Pegoraro,ord990005
+itm880027,iPhone 11,0.166,799.0,Marco Pegoraro,ord990005
+itm880024,Echo Plus,1.28,149.99,Marco Pegoraro,ord990005
+itm880026,Kindle,0.483,79.99,Marco Pegoraro,ord990005
+itm880021,iPhone 8,0.21,529.0,Marco Pegoraro,ord990005
+itm880030,MacBook Pro,1.37,2500.0,Lisa Mannel,ord990006
+itm880029,iPhone 11 Pro,0.188,1149.0,Lisa Mannel,ord990006
+itm880028,Echo Show 5,0.88,89.99,Lisa Mannel,ord990006
+itm880032,Echo,0.78,99.99,Wil van der Aalst,ord990007
+itm880034,Fire Stick 4K,0.28,89.99,Wil van der Aalst,ord990007
+itm880033,Echo Dot,0.38,29.99,Wil van der Aalst,ord990007
+itm880031,MacBook Air,1.25,2200.0,Wil van der Aalst,ord990007
+itm880037,iPhone 11,0.166,799.0,Claudia Graf,ord990008
+itm880036,Echo Plus,1.28,149.99,Claudia Graf,ord990008
+itm880035,Fire Stick 4K,0.28,89.99,Claudia Graf,ord990008
+itm880042,iPad,0.483,495.0,Anahita Farhang Ghahfarokhi,ord990009
+itm880039,Kindle Paperwhite,0.495,129.0,Anahita Farhang Ghahfarokhi,ord990009
+itm880038,Fire Stick 4K,0.28,89.99,Anahita Farhang Ghahfarokhi,ord990009
+itm880044,Echo Show 5,0.88,89.99,Anahita Farhang Ghahfarokhi,ord990009
+itm880040,Echo Dot,0.38,29.99,Anahita Farhang Ghahfarokhi,ord990009
+itm880043,MacBook Pro,1.37,2500.0,Anahita Farhang Ghahfarokhi,ord990009
+itm880041,Fire Stick,0.2,39.99,Anahita Farhang Ghahfarokhi,ord990009
+itm880049,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990010
+itm880048,iPad Air,0.44,476.0,Marco Pegoraro,ord990010
+itm880050,Kindle Paperwhite,0.495,129.0,Marco Pegoraro,ord990010
+itm880045,Fire Stick,0.2,39.99,Marco Pegoraro,ord990010
+itm880046,iPad Air,0.44,476.0,Marco Pegoraro,ord990010
+itm880047,iPhone 11 Pro,0.188,1149.0,Marco Pegoraro,ord990010
+itm880051,MacBook Pro,1.37,2500.0,Marco Pegoraro,ord990011
+itm880056,iPad Pro,0.483,1099.0,Kefang Ding,ord990012
+itm880057,MacBook Pro,1.37,2500.0,Kefang Ding,ord990012
+itm880055,Kindle,0.483,79.99,Kefang Ding,ord990012
+itm880054,Echo,0.78,99.99,Kefang Ding,ord990012
+itm880053,Echo Show 5,0.88,89.99,Kefang Ding,ord990012
+itm880052,iPhone X,0.172,699.0,Kefang Ding,ord990012
+itm880058,iPhone 8,0.21,529.0,Luis Santos,ord990013
+itm880059,Fire Stick 4K,0.28,89.99,Luis Santos,ord990013
+itm880060,iPad Pro,0.483,1099.0,Luis Santos,ord990013
+itm880063,Echo Dot,0.38,29.99,Luis Santos,ord990014
+itm880061,Kindle Paperwhite,0.495,129.0,Luis Santos,ord990014
+itm880062,iPhone 11 Pro,0.188,1149.0,Luis Santos,ord990014
+itm880069,Echo Show 5,0.88,89.99,Mahsa Bafrani,ord990015
+itm880066,iPhone 11,0.166,799.0,Mahsa Bafrani,ord990015
+itm880064,Echo Dot,0.38,29.99,Mahsa Bafrani,ord990015
+itm880068,Echo Studio,1.48,199.99,Mahsa Bafrani,ord990015
+itm880065,iPad Air,0.44,476.0,Mahsa Bafrani,ord990015
+itm880067,Fire Stick 4K,0.28,89.99,Mahsa Bafrani,ord990015
+itm880070,Fire Stick 4K,0.28,89.99,Kefang Ding,ord990016
+itm880076,iPhone 8,0.21,529.0,Junxiong Gao,ord990017
+itm880072,Echo Dot,0.38,29.99,Junxiong Gao,ord990017
+itm880071,iPhone 8,0.21,529.0,Junxiong Gao,ord990017
+itm880073,Echo Dot,0.38,29.99,Junxiong Gao,ord990017
+itm880075,Kindle,0.483,79.99,Junxiong Gao,ord990017
+itm880074,Echo Studio,1.48,199.99,Junxiong Gao,ord990017
+itm880081,Echo Dot,0.38,29.99,Gyunam Park,ord990018
+itm880077,Kindle,0.483,79.99,Gyunam Park,ord990018
+itm880079,iPhone 11 Pro,0.188,1149.0,Gyunam Park,ord990018
+itm880078,Echo,0.78,99.99,Gyunam Park,ord990018
+itm880080,Fire Stick 4K,0.28,89.99,Gyunam Park,ord990018
+itm880082,iPad,0.483,495.0,Lisa Mannel,ord990019
+itm880084,iPhone 11 Pro,0.188,1149.0,Lisa Mannel,ord990019
+itm880083,iPhone 11,0.166,799.0,Lisa Mannel,ord990019
+itm880085,MacBook Pro,1.37,2500.0,Lisa Mannel,ord990019
+itm880086,iPad Air,0.44,476.0,Christine Dobbert,ord990020
+itm880088,iPad Pro,0.483,1099.0,Christine Dobbert,ord990020
+itm880087,iPad Pro,0.483,1099.0,Christine Dobbert,ord990020
+itm880089,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990021
+itm880091,Echo Show 5,0.88,89.99,Mohammadreza Fani Sani,ord990021
+itm880092,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990021
+itm880090,iPhone 11 Pro,0.188,1149.0,Mohammadreza Fani Sani,ord990021
+itm880093,Echo Plus,1.28,149.99,Gyunam Park,ord990022
+itm880094,Echo Show 8,0.98,129.99,Gyunam Park,ord990022
+itm880095,MacBook Pro,1.37,2500.0,Mahsa Bafrani,ord990023
+itm880097,MacBook Air,1.25,2200.0,Christina Rensinghof,ord990024
+itm880096,Echo Studio,1.48,199.99,Christina Rensinghof,ord990024
+itm880102,Echo Dot,0.38,29.99,Lisa Mannel,ord990025
+itm880099,Fire Stick 4K,0.28,89.99,Lisa Mannel,ord990025
+itm880101,Echo,0.78,99.99,Lisa Mannel,ord990025
+itm880098,Echo,0.78,99.99,Lisa Mannel,ord990025
+itm880100,MacBook Pro,1.37,2500.0,Lisa Mannel,ord990025
+itm880108,Echo Plus,1.28,149.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880109,Kindle Paperwhite,0.495,129.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880112,Echo Dot,0.38,29.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880103,iPhone 11,0.166,799.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880105,Echo Show 5,0.88,89.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880114,iPhone X,0.172,699.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880111,iPhone 11,0.166,799.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880106,Echo Studio,1.48,199.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880116,Echo Show 8,0.98,129.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880104,iPad,0.483,495.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880115,Echo Plus,1.28,149.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880110,iPad Air,0.44,476.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880113,Echo,0.78,99.99,Anahita Farhang Ghahfarokhi,ord990026
+itm880107,MacBook Air,1.25,2200.0,Anahita Farhang Ghahfarokhi,ord990026
+itm880117,Fire Stick,0.2,39.99,Claudia Graf,ord990027
+itm880119,iPad,0.483,495.0,Claudia Graf,ord990027
+itm880120,iPhone X,0.172,699.0,Claudia Graf,ord990027
+itm880118,Echo Dot,0.38,29.99,Claudia Graf,ord990027
+itm880121,iPhone X,0.172,699.0,Claudia Graf,ord990027
+itm880124,Echo Dot,0.38,29.99,Gyunam Park,ord990028
+itm880122,Kindle,0.483,79.99,Gyunam Park,ord990028
+itm880125,Echo Dot,0.38,29.99,Gyunam Park,ord990028
+itm880123,iPad Air,0.44,476.0,Gyunam Park,ord990028
+itm880128,Echo Studio,1.48,199.99,Wil van der Aalst,ord990029
+itm880127,iPhone 8,0.21,529.0,Wil van der Aalst,ord990029
+itm880126,MacBook Pro,1.37,2500.0,Wil van der Aalst,ord990029
+itm880129,Fire Stick,0.2,39.99,Marco Pegoraro,ord990030
+itm880131,iPad Air,0.44,476.0,Marco Pegoraro,ord990030
+itm880132,Echo,0.78,99.99,Marco Pegoraro,ord990030
+itm880130,Echo Show 8,0.98,129.99,Marco Pegoraro,ord990030
+itm880133,iPhone 11,0.166,799.0,Wil van der Aalst,ord990031
+itm880138,Echo Dot,0.38,29.99,Marco Pegoraro,ord990032
+itm880137,iPad Air,0.44,476.0,Marco Pegoraro,ord990032
+itm880134,Kindle Paperwhite,0.495,129.0,Marco Pegoraro,ord990032
+itm880135,iPad mini,0.28,449.0,Marco Pegoraro,ord990032
+itm880136,iPad Air,0.44,476.0,Marco Pegoraro,ord990032
+itm880141,iPad Air,0.44,476.0,Luis Santos,ord990033
+itm880139,Fire Stick,0.2,39.99,Luis Santos,ord990033
+itm880140,Echo Show 5,0.88,89.99,Luis Santos,ord990033
+itm880143,iPad Air,0.44,476.0,Gyunam Park,ord990034
+itm880144,iPad mini,0.28,449.0,Gyunam Park,ord990034
+itm880142,iPhone X,0.172,699.0,Gyunam Park,ord990034
+itm880145,Echo Studio,1.48,199.99,Gyunam Park,ord990034
+itm880149,iPad,0.483,495.0,Christina Rensinghof,ord990035
+itm880150,Kindle Paperwhite,0.495,129.0,Christina Rensinghof,ord990035
+itm880148,Echo Dot,0.38,29.99,Christina Rensinghof,ord990035
+itm880146,iPhone 11,0.166,799.0,Christina Rensinghof,ord990035
+itm880147,iPhone 11,0.166,799.0,Christina Rensinghof,ord990035
+itm880151,Echo Show 8,0.98,129.99,Kefang Ding,ord990036
+itm880152,iPhone 8,0.21,529.0,Kefang Ding,ord990036
+itm880153,iPad mini,0.28,449.0,Christine Dobbert,ord990037
+itm880154,iPhone X,0.172,699.0,Christine Dobbert,ord990037
+itm880155,Echo Plus,1.28,149.99,Christine Dobbert,ord990037
+itm880156,iPad Air,0.44,476.0,Christine Dobbert,ord990037
+itm880160,Fire Stick 4K,0.28,89.99,Mahsa Bafrani,ord990038
+itm880159,iPhone 11,0.166,799.0,Mahsa Bafrani,ord990038
+itm880157,MacBook Air,1.25,2200.0,Mahsa Bafrani,ord990038
+itm880158,iPad Air,0.44,476.0,Mahsa Bafrani,ord990038
+itm880161,iPad Pro,0.483,1099.0,Mahsa Bafrani,ord990038
+itm880162,iPad,0.483,495.0,Mahsa Bafrani,ord990039
+itm880163,Echo Studio,1.48,199.99,Mahsa Bafrani,ord990039
+itm880164,iPhone X,0.172,699.0,Mahsa Bafrani,ord990039
+itm880165,MacBook Pro,1.37,2500.0,Mahnaz Qafari,ord990040
+itm880166,iPad Air,0.44,476.0,Mahsa Bafrani,ord990041
+itm880167,Echo Dot,0.38,29.99,Seran Uysal,ord990042
+itm880171,Echo Studio,1.48,199.99,Seran Uysal,ord990042
+itm880168,Echo Dot,0.38,29.99,Seran Uysal,ord990042
+itm880169,iPad mini,0.28,449.0,Seran Uysal,ord990042
+itm880170,Echo Plus,1.28,149.99,Seran Uysal,ord990042
+itm880173,MacBook Air,1.25,2200.0,Lisa Mannel,ord990043
+itm880172,iPhone 11 Pro,0.188,1149.0,Lisa Mannel,ord990043
+itm880174,Echo Dot,0.38,29.99,Christina Rensinghof,ord990044
+itm880175,Fire Stick,0.2,39.99,Mohammadreza Fani Sani,ord990045
+itm880176,iPhone 11,0.166,799.0,Mohammadreza Fani Sani,ord990045
+itm880179,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990046
+itm880177,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990046
+itm880178,Echo Show 8,0.98,129.99,Mohammadreza Fani Sani,ord990046
+itm880182,Echo Show 8,0.98,129.99,Kefang Ding,ord990047
+itm880180,iPhone 11 Pro,0.188,1149.0,Kefang Ding,ord990047
+itm880181,Echo,0.78,99.99,Kefang Ding,ord990047
+itm880185,MacBook Air,1.25,2200.0,Kefang Ding,ord990048
+itm880183,MacBook Air,1.25,2200.0,Kefang Ding,ord990048
+itm880184,MacBook Pro,1.37,2500.0,Kefang Ding,ord990048
+itm880186,iPhone X,0.172,699.0,Seran Uysal,ord990049
+itm880187,Echo Show 5,0.88,89.99,Seran Uysal,ord990049
+itm880188,iPhone 11,0.166,799.0,Gyunam Park,ord990050
+itm880189,iPhone 11,0.166,799.0,Gyunam Park,ord990050
+itm880190,iPhone 11,0.166,799.0,Gyunam Park,ord990050
+itm880191,Echo Studio,1.48,199.99,Gyunam Park,ord990050
+itm880192,Echo Show 8,0.98,129.99,Anahita Farhang Ghahfarokhi,ord990051
+itm880195,Kindle,0.483,79.99,Anahita Farhang Ghahfarokhi,ord990051
+itm880196,iPad Pro,0.483,1099.0,Anahita Farhang Ghahfarokhi,ord990051
+itm880193,iPhone 11 Pro,0.188,1149.0,Anahita Farhang Ghahfarokhi,ord990051
+itm880194,iPhone 11 Pro,0.188,1149.0,Anahita Farhang Ghahfarokhi,ord990051
+itm880197,iPhone 11,0.166,799.0,Gyunam Park,ord990052
+itm880198,iPad Air,0.44,476.0,Kefang Ding,ord990053
+itm880199,iPad mini,0.28,449.0,Kefang Ding,ord990053
+itm880200,Echo Plus,1.28,149.99,Kefang Ding,ord990053
+itm880204,Echo,0.78,99.99,Wil van der Aalst,ord990054
+itm880203,Kindle,0.483,79.99,Wil van der Aalst,ord990054
+itm880202,Echo Studio,1.48,199.99,Wil van der Aalst,ord990054
+itm880201,Kindle,0.483,79.99,Wil van der Aalst,ord990054
+itm880205,iPad Air,0.44,476.0,Wil van der Aalst,ord990054
+itm880206,Echo Plus,1.28,149.99,Wil van der Aalst,ord990054
+itm880207,iPhone 11 Pro,0.188,1149.0,Mahsa Bafrani,ord990055
+itm880211,MacBook Air,1.25,2200.0,Mahsa Bafrani,ord990055
+itm880209,iPad,0.483,495.0,Mahsa Bafrani,ord990055
+itm880210,Echo,0.78,99.99,Mahsa Bafrani,ord990055
+itm880208,iPad Pro,0.483,1099.0,Mahsa Bafrani,ord990055
+itm880212,iPhone 11,0.166,799.0,Christina Rensinghof,ord990056
+itm880213,Echo Studio,1.48,199.99,Christina Rensinghof,ord990056
+itm880214,iPhone X,0.172,699.0,Christina Rensinghof,ord990056
+itm880215,Echo Dot,0.38,29.99,Kefang Ding,ord990057
+itm880225,iPhone 11,0.166,799.0,Kefang Ding,ord990057
+itm880219,iPhone 8,0.21,529.0,Kefang Ding,ord990057
+itm880224,iPad Pro,0.483,1099.0,Kefang Ding,ord990057
+itm880221,Echo,0.78,99.99,Kefang Ding,ord990057
+itm880218,iPad mini,0.28,449.0,Kefang Ding,ord990057
+itm880226,Fire Stick,0.2,39.99,Kefang Ding,ord990057
+itm880222,Kindle Paperwhite,0.495,129.0,Kefang Ding,ord990057
+itm880220,Echo Dot,0.38,29.99,Kefang Ding,ord990057
+itm880217,iPhone X,0.172,699.0,Kefang Ding,ord990057
+itm880223,Kindle Paperwhite,0.495,129.0,Kefang Ding,ord990057
+itm880216,Fire Stick 4K,0.28,89.99,Kefang Ding,ord990057
+itm880229,Echo Dot,0.38,29.99,Mahnaz Qafari,ord990058
+itm880228,Echo Dot,0.38,29.99,Mahnaz Qafari,ord990058
+itm880227,iPad,0.483,495.0,Mahnaz Qafari,ord990058
+itm880231,iPhone 8,0.21,529.0,Mohammadreza Fani Sani,ord990059
+itm880232,iPhone 11,0.166,799.0,Mohammadreza Fani Sani,ord990059
+itm880230,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990059
+itm880233,Fire Stick,0.2,39.99,Lisa Mannel,ord990060
+itm880234,Fire Stick,0.2,39.99,Lisa Mannel,ord990060
+itm880235,Kindle,0.483,79.99,Mohammadreza Fani Sani,ord990061
+itm880236,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990061
+itm880237,iPhone 11,0.166,799.0,Wil van der Aalst,ord990062
+itm880238,Kindle Paperwhite,0.495,129.0,Wil van der Aalst,ord990062
+itm880241,Echo Dot,0.38,29.99,Mahnaz Qafari,ord990063
+itm880239,Echo Show 8,0.98,129.99,Mahnaz Qafari,ord990063
+itm880242,iPhone 11 Pro,0.188,1149.0,Mahnaz Qafari,ord990063
+itm880240,iPhone 11 Pro,0.188,1149.0,Mahnaz Qafari,ord990063
+itm880245,Echo Show 5,0.88,89.99,Anahita Farhang Ghahfarokhi,ord990064
+itm880244,Kindle Paperwhite,0.495,129.0,Anahita Farhang Ghahfarokhi,ord990064
+itm880243,Fire Stick,0.2,39.99,Anahita Farhang Ghahfarokhi,ord990064
+itm880246,iPad Pro,0.483,1099.0,Gyunam Park,ord990065
+itm880248,Echo,0.78,99.99,Gyunam Park,ord990065
+itm880249,Echo,0.78,99.99,Gyunam Park,ord990065
+itm880247,MacBook Air,1.25,2200.0,Gyunam Park,ord990065
+itm880251,Echo Dot,0.38,29.99,Mahnaz Qafari,ord990066
+itm880250,MacBook Pro,1.37,2500.0,Mahnaz Qafari,ord990066
+itm880255,Fire Stick,0.2,39.99,Wil van der Aalst,ord990067
+itm880252,iPhone 11,0.166,799.0,Wil van der Aalst,ord990067
+itm880256,iPhone 8,0.21,529.0,Wil van der Aalst,ord990067
+itm880253,Fire Stick,0.2,39.99,Wil van der Aalst,ord990067
+itm880254,MacBook Pro,1.37,2500.0,Wil van der Aalst,ord990067
+itm880257,Echo,0.78,99.99,Marco Pegoraro,ord990068
+itm880259,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990068
+itm880258,iPad,0.483,495.0,Marco Pegoraro,ord990068
+itm880260,iPad Pro,0.483,1099.0,Marco Pegoraro,ord990068
+itm880265,Fire Stick,0.2,39.99,Lisa Mannel,ord990069
+itm880263,Echo Show 5,0.88,89.99,Lisa Mannel,ord990069
+itm880262,Echo Show 5,0.88,89.99,Lisa Mannel,ord990069
+itm880261,iPhone X,0.172,699.0,Lisa Mannel,ord990069
+itm880264,Echo,0.78,99.99,Lisa Mannel,ord990069
+itm880268,iPhone 11,0.166,799.0,Majid Rafiei,ord990070
+itm880267,Echo,0.78,99.99,Majid Rafiei,ord990070
+itm880270,iPad Pro,0.483,1099.0,Majid Rafiei,ord990070
+itm880271,Fire Stick 4K,0.28,89.99,Majid Rafiei,ord990070
+itm880269,iPad Air,0.44,476.0,Majid Rafiei,ord990070
+itm880272,Echo Show 5,0.88,89.99,Majid Rafiei,ord990070
+itm880266,Echo,0.78,99.99,Majid Rafiei,ord990070
+itm880273,Echo Show 5,0.88,89.99,Junxiong Gao,ord990071
+itm880275,Kindle Paperwhite,0.495,129.0,Junxiong Gao,ord990071
+itm880276,Echo Show 8,0.98,129.99,Junxiong Gao,ord990071
+itm880277,Kindle Paperwhite,0.495,129.0,Junxiong Gao,ord990071
+itm880274,iPhone X,0.172,699.0,Junxiong Gao,ord990071
+itm880280,Echo Dot,0.38,29.99,Wil van der Aalst,ord990072
+itm880279,Echo,0.78,99.99,Wil van der Aalst,ord990072
+itm880278,iPhone X,0.172,699.0,Wil van der Aalst,ord990072
+itm880287,Fire Stick,0.2,39.99,Mohammadreza Fani Sani,ord990073
+itm880284,Fire Stick 4K,0.28,89.99,Mohammadreza Fani Sani,ord990073
+itm880285,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990073
+itm880282,Echo Dot,0.38,29.99,Mohammadreza Fani Sani,ord990073
+itm880283,iPad mini,0.28,449.0,Mohammadreza Fani Sani,ord990073
+itm880281,iPhone X,0.172,699.0,Mohammadreza Fani Sani,ord990073
+itm880288,iPhone 11 Pro,0.188,1149.0,Mohammadreza Fani Sani,ord990073
+itm880286,Fire Stick 4K,0.28,89.99,Mohammadreza Fani Sani,ord990073
+itm880289,Echo Show 8,0.98,129.99,Mohammadreza Fani Sani,ord990074
+itm880293,iPhone 11,0.166,799.0,Junxiong Gao,ord990075
+itm880291,iPad mini,0.28,449.0,Junxiong Gao,ord990075
+itm880294,Echo Show 8,0.98,129.99,Junxiong Gao,ord990075
+itm880295,Echo Studio,1.48,199.99,Junxiong Gao,ord990075
+itm880292,Echo Show 5,0.88,89.99,Junxiong Gao,ord990075
+itm880290,iPhone X,0.172,699.0,Junxiong Gao,ord990075
+itm880299,Echo Show 5,0.88,89.99,Mahnaz Qafari,ord990076
+itm880296,iPad Pro,0.483,1099.0,Mahnaz Qafari,ord990076
+itm880301,Echo Studio,1.48,199.99,Mahnaz Qafari,ord990076
+itm880297,Echo Show 8,0.98,129.99,Mahnaz Qafari,ord990076
+itm880300,MacBook Pro,1.37,2500.0,Mahnaz Qafari,ord990076
+itm880298,Echo Dot,0.38,29.99,Mahnaz Qafari,ord990076
+itm880302,Echo,0.78,99.99,Mahnaz Qafari,ord990076
+itm880304,Kindle Paperwhite,0.495,129.0,Christine Dobbert,ord990077
+itm880303,iPad,0.483,495.0,Christine Dobbert,ord990077
+itm880306,MacBook Air,1.25,2200.0,Wil van der Aalst,ord990078
+itm880305,Echo Show 5,0.88,89.99,Wil van der Aalst,ord990078
+itm880307,iPad,0.483,495.0,Luis Santos,ord990079
+itm880308,iPad mini,0.28,449.0,Luis Santos,ord990079
+itm880309,Kindle,0.483,79.99,Luis Santos,ord990079
+itm880311,Echo Studio,1.48,199.99,Majid Rafiei,ord990080
+itm880310,MacBook Pro,1.37,2500.0,Majid Rafiei,ord990080
+itm880313,Echo Show 8,0.98,129.99,Seran Uysal,ord990081
+itm880315,Fire Stick 4K,0.28,89.99,Seran Uysal,ord990081
+itm880312,Echo Show 8,0.98,129.99,Seran Uysal,ord990081
+itm880314,Fire Stick,0.2,39.99,Seran Uysal,ord990081
+itm880316,Fire Stick 4K,0.28,89.99,Lisa Mannel,ord990082
+itm880317,Echo Studio,1.48,199.99,Lisa Mannel,ord990082
+itm880318,iPhone 11,0.166,799.0,Lisa Mannel,ord990082
+itm880320,Echo Plus,1.28,149.99,Lisa Mannel,ord990082
+itm880319,MacBook Pro,1.37,2500.0,Lisa Mannel,ord990082
+itm880321,Echo,0.78,99.99,Majid Rafiei,ord990083
+itm880322,Fire Stick 4K,0.28,89.99,Majid Rafiei,ord990083
+itm880326,Fire Stick 4K,0.28,89.99,Majid Rafiei,ord990083
+itm880324,Fire Stick 4K,0.28,89.99,Majid Rafiei,ord990083
+itm880323,Echo Plus,1.28,149.99,Majid Rafiei,ord990083
+itm880325,MacBook Pro,1.37,2500.0,Majid Rafiei,ord990083
+itm880333,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990084
+itm880329,Kindle Paperwhite,0.495,129.0,Tobias Brockhoff,ord990084
+itm880332,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990084
+itm880334,Echo Studio,1.48,199.99,Tobias Brockhoff,ord990084
+itm880331,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990084
+itm880327,iPad mini,0.28,449.0,Tobias Brockhoff,ord990084
+itm880328,Echo Plus,1.28,149.99,Tobias Brockhoff,ord990084
+itm880330,iPhone X,0.172,699.0,Tobias Brockhoff,ord990084
+itm880335,Echo Show 5,0.88,89.99,Christine Dobbert,ord990085
+itm880336,Echo Studio,1.48,199.99,Christine Dobbert,ord990085
+itm880337,MacBook Pro,1.37,2500.0,Christine Dobbert,ord990085
+itm880341,iPad Pro,0.483,1099.0,Luis Santos,ord990086
+itm880339,iPhone 8,0.21,529.0,Luis Santos,ord990086
+itm880338,Echo Show 8,0.98,129.99,Luis Santos,ord990086
+itm880340,Echo Studio,1.48,199.99,Luis Santos,ord990086
+itm880345,iPad Pro,0.483,1099.0,Wil van der Aalst,ord990087
+itm880342,iPad Pro,0.483,1099.0,Wil van der Aalst,ord990087
+itm880343,iPhone 11 Pro,0.188,1149.0,Wil van der Aalst,ord990087
+itm880344,Kindle Paperwhite,0.495,129.0,Wil van der Aalst,ord990087
+itm880347,Echo,0.78,99.99,Christine Dobbert,ord990088
+itm880348,iPhone 8,0.21,529.0,Christine Dobbert,ord990088
+itm880346,Echo Plus,1.28,149.99,Christine Dobbert,ord990088
+itm880349,iPad Air,0.44,476.0,Christine Dobbert,ord990088
+itm880353,Echo Dot,0.38,29.99,Anahita Farhang Ghahfarokhi,ord990089
+itm880354,iPad Pro,0.483,1099.0,Anahita Farhang Ghahfarokhi,ord990089
+itm880352,iPad Air,0.44,476.0,Anahita Farhang Ghahfarokhi,ord990089
+itm880351,Echo Show 5,0.88,89.99,Anahita Farhang Ghahfarokhi,ord990089
+itm880350,Kindle Paperwhite,0.495,129.0,Anahita Farhang Ghahfarokhi,ord990089
+itm880361,MacBook Air,1.25,2200.0,Mahsa Bafrani,ord990090
+itm880360,Echo Dot,0.38,29.99,Mahsa Bafrani,ord990090
+itm880358,Echo,0.78,99.99,Mahsa Bafrani,ord990090
+itm880357,Echo Show 8,0.98,129.99,Mahsa Bafrani,ord990090
+itm880359,iPad Pro,0.483,1099.0,Mahsa Bafrani,ord990090
+itm880356,Fire Stick 4K,0.28,89.99,Mahsa Bafrani,ord990090
+itm880362,iPhone 11,0.166,799.0,Mahsa Bafrani,ord990090
+itm880355,Kindle,0.483,79.99,Mahsa Bafrani,ord990090
+itm880366,iPad,0.483,495.0,Seran Uysal,ord990091
+itm880365,MacBook Air,1.25,2200.0,Seran Uysal,ord990091
+itm880368,iPhone 11 Pro,0.188,1149.0,Seran Uysal,ord990091
+itm880364,iPad Air,0.44,476.0,Seran Uysal,ord990091
+itm880367,iPhone 11 Pro,0.188,1149.0,Seran Uysal,ord990091
+itm880363,iPad mini,0.28,449.0,Seran Uysal,ord990091
+itm880370,iPhone 8,0.21,529.0,Kefang Ding,ord990092
+itm880371,Echo Plus,1.28,149.99,Kefang Ding,ord990092
+itm880369,Echo,0.78,99.99,Kefang Ding,ord990092
+itm880372,iPad,0.483,495.0,Lisa Mannel,ord990093
+itm880373,Echo Studio,1.48,199.99,Lisa Mannel,ord990093
+itm880374,iPad mini,0.28,449.0,Luis Santos,ord990094
+itm880375,iPhone 11 Pro,0.188,1149.0,Luis Santos,ord990094
+itm880377,Echo Plus,1.28,149.99,Majid Rafiei,ord990095
+itm880376,Fire Stick,0.2,39.99,Majid Rafiei,ord990095
+itm880380,Echo Show 8,0.98,129.99,Marco Pegoraro,ord990096
+itm880379,Fire Stick,0.2,39.99,Marco Pegoraro,ord990096
+itm880378,iPhone 11,0.166,799.0,Marco Pegoraro,ord990096
+itm880384,iPhone X,0.172,699.0,Gyunam Park,ord990097
+itm880381,Echo Show 8,0.98,129.99,Gyunam Park,ord990097
+itm880383,Kindle,0.483,79.99,Gyunam Park,ord990097
+itm880382,iPad Pro,0.483,1099.0,Gyunam Park,ord990097
+itm880388,iPhone 11,0.166,799.0,Christina Rensinghof,ord990098
+itm880387,Echo Plus,1.28,149.99,Christina Rensinghof,ord990098
+itm880385,Echo Show 5,0.88,89.99,Christina Rensinghof,ord990098
+itm880386,iPad Pro,0.483,1099.0,Christina Rensinghof,ord990098
+itm880390,Echo Show 5,0.88,89.99,Wil van der Aalst,ord990099
+itm880393,iPhone 11 Pro,0.188,1149.0,Wil van der Aalst,ord990099
+itm880394,iPhone 11 Pro,0.188,1149.0,Wil van der Aalst,ord990099
+itm880392,iPad Air,0.44,476.0,Wil van der Aalst,ord990099
+itm880391,Echo Plus,1.28,149.99,Wil van der Aalst,ord990099
+itm880395,Echo Studio,1.48,199.99,Wil van der Aalst,ord990099
+itm880389,iPad,0.483,495.0,Wil van der Aalst,ord990099
+itm880397,Echo Plus,1.28,149.99,Lisa Mannel,ord990100
+itm880396,iPad Air,0.44,476.0,Lisa Mannel,ord990100
+itm880400,Kindle,0.483,79.99,Mahnaz Qafari,ord990101
+itm880398,iPad,0.483,495.0,Mahnaz Qafari,ord990101
+itm880399,Echo Studio,1.48,199.99,Mahnaz Qafari,ord990101
+itm880401,iPhone X,0.172,699.0,Mahnaz Qafari,ord990101
+itm880403,iPhone 11,0.166,799.0,Christine Dobbert,ord990102
+itm880404,iPad Pro,0.483,1099.0,Christine Dobbert,ord990102
+itm880402,iPad Air,0.44,476.0,Christine Dobbert,ord990102
+itm880407,MacBook Pro,1.37,2500.0,Mahnaz Qafari,ord990103
+itm880406,iPad mini,0.28,449.0,Mahnaz Qafari,ord990103
+itm880405,iPad mini,0.28,449.0,Mahnaz Qafari,ord990103
+itm880410,MacBook Air,1.25,2200.0,Majid Rafiei,ord990104
+itm880409,Echo Studio,1.48,199.99,Majid Rafiei,ord990104
+itm880411,Echo Show 8,0.98,129.99,Majid Rafiei,ord990104
+itm880408,Echo Show 5,0.88,89.99,Majid Rafiei,ord990104
+itm880412,MacBook Pro,1.37,2500.0,Mohammadreza Fani Sani,ord990105
+itm880414,Echo Dot,0.38,29.99,Mohammadreza Fani Sani,ord990105
+itm880413,MacBook Pro,1.37,2500.0,Mohammadreza Fani Sani,ord990105
+itm880417,Kindle,0.483,79.99,Mahnaz Qafari,ord990106
+itm880415,MacBook Air,1.25,2200.0,Mahnaz Qafari,ord990106
+itm880416,iPhone 11,0.166,799.0,Mahnaz Qafari,ord990106
+itm880419,Fire Stick,0.2,39.99,Seran Uysal,ord990107
+itm880418,iPad mini,0.28,449.0,Seran Uysal,ord990107
+itm880422,Echo Show 5,0.88,89.99,Anahita Farhang Ghahfarokhi,ord990108
+itm880421,iPad,0.483,495.0,Anahita Farhang Ghahfarokhi,ord990108
+itm880420,MacBook Pro,1.37,2500.0,Anahita Farhang Ghahfarokhi,ord990108
+itm880424,Echo Show 5,0.88,89.99,Mohammadreza Fani Sani,ord990109
+itm880423,Echo Show 5,0.88,89.99,Mohammadreza Fani Sani,ord990109
+itm880433,MacBook Air,1.25,2200.0,Seran Uysal,ord990110
+itm880430,iPad,0.483,495.0,Seran Uysal,ord990110
+itm880428,iPad mini,0.28,449.0,Seran Uysal,ord990110
+itm880432,iPhone 11 Pro,0.188,1149.0,Seran Uysal,ord990110
+itm880427,iPad Air,0.44,476.0,Seran Uysal,ord990110
+itm880434,MacBook Pro,1.37,2500.0,Seran Uysal,ord990110
+itm880425,iPhone 11 Pro,0.188,1149.0,Seran Uysal,ord990110
+itm880426,iPhone 11,0.166,799.0,Seran Uysal,ord990110
+itm880429,Echo Show 8,0.98,129.99,Seran Uysal,ord990110
+itm880431,Fire Stick,0.2,39.99,Seran Uysal,ord990110
+itm880435,Echo Plus,1.28,149.99,Mahnaz Qafari,ord990111
+itm880436,iPhone X,0.172,699.0,Mahnaz Qafari,ord990111
+itm880438,iPhone X,0.172,699.0,Wil van der Aalst,ord990112
+itm880441,Echo,0.78,99.99,Wil van der Aalst,ord990112
+itm880440,iPad Pro,0.483,1099.0,Wil van der Aalst,ord990112
+itm880437,Echo Show 8,0.98,129.99,Wil van der Aalst,ord990112
+itm880439,iPhone X,0.172,699.0,Wil van der Aalst,ord990112
+itm880442,Kindle Paperwhite,0.495,129.0,Luis Santos,ord990113
+itm880443,MacBook Air,1.25,2200.0,Luis Santos,ord990113
+itm880446,iPhone 11,0.166,799.0,Luis Santos,ord990113
+itm880444,Echo Show 5,0.88,89.99,Luis Santos,ord990113
+itm880445,iPad mini,0.28,449.0,Luis Santos,ord990113
+itm880447,iPhone 8,0.21,529.0,Mahsa Bafrani,ord990114
+itm880451,iPhone 11 Pro,0.188,1149.0,Mahsa Bafrani,ord990114
+itm880450,Echo Dot,0.38,29.99,Mahsa Bafrani,ord990114
+itm880449,Echo Dot,0.38,29.99,Mahsa Bafrani,ord990114
+itm880448,Echo Show 5,0.88,89.99,Mahsa Bafrani,ord990114
+itm880454,Echo Show 8,0.98,129.99,Seran Uysal,ord990115
+itm880452,MacBook Pro,1.37,2500.0,Seran Uysal,ord990115
+itm880455,Echo Plus,1.28,149.99,Seran Uysal,ord990115
+itm880456,iPhone 11,0.166,799.0,Seran Uysal,ord990115
+itm880453,Echo Studio,1.48,199.99,Seran Uysal,ord990115
+itm880459,iPhone 11,0.166,799.0,Christine Dobbert,ord990116
+itm880458,MacBook Air,1.25,2200.0,Christine Dobbert,ord990116
+itm880457,Echo Plus,1.28,149.99,Christine Dobbert,ord990116
+itm880460,Echo Show 8,0.98,129.99,Christine Dobbert,ord990116
+itm880461,Echo Plus,1.28,149.99,Luis Santos,ord990117
+itm880463,iPad,0.483,495.0,Luis Santos,ord990117
+itm880462,Echo Plus,1.28,149.99,Luis Santos,ord990117
+itm880464,iPad,0.483,495.0,Luis Santos,ord990117
+itm880474,Echo Plus,1.28,149.99,Tobias Brockhoff,ord990118
+itm880468,Echo Show 8,0.98,129.99,Tobias Brockhoff,ord990118
+itm880472,iPad,0.483,495.0,Tobias Brockhoff,ord990118
+itm880471,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990118
+itm880470,Echo Dot,0.38,29.99,Tobias Brockhoff,ord990118
+itm880465,iPhone 11,0.166,799.0,Tobias Brockhoff,ord990118
+itm880473,Echo Studio,1.48,199.99,Tobias Brockhoff,ord990118
+itm880466,Echo,0.78,99.99,Tobias Brockhoff,ord990118
+itm880469,Echo Show 5,0.88,89.99,Tobias Brockhoff,ord990118
+itm880467,iPhone 11,0.166,799.0,Tobias Brockhoff,ord990118
+itm880479,Echo Show 5,0.88,89.99,Luis Santos,ord990119
+itm880476,iPhone 11,0.166,799.0,Luis Santos,ord990119
+itm880477,MacBook Pro,1.37,2500.0,Luis Santos,ord990119
+itm880478,Echo Studio,1.48,199.99,Luis Santos,ord990119
+itm880475,Echo Show 8,0.98,129.99,Luis Santos,ord990119
+itm880482,Echo Dot,0.38,29.99,Mohammadreza Fani Sani,ord990120
+itm880480,Fire Stick 4K,0.28,89.99,Mohammadreza Fani Sani,ord990120
+itm880483,MacBook Air,1.25,2200.0,Mohammadreza Fani Sani,ord990120
+itm880481,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990120
+itm880486,iPad Air,0.44,476.0,Christina Rensinghof,ord990121
+itm880485,iPad Air,0.44,476.0,Christina Rensinghof,ord990121
+itm880489,Fire Stick,0.2,39.99,Christina Rensinghof,ord990121
+itm880484,Echo,0.78,99.99,Christina Rensinghof,ord990121
+itm880487,Kindle Paperwhite,0.495,129.0,Christina Rensinghof,ord990121
+itm880488,iPad mini,0.28,449.0,Christina Rensinghof,ord990121
+itm880492,Kindle,0.483,79.99,Lisa Mannel,ord990122
+itm880493,iPhone 11 Pro,0.188,1149.0,Lisa Mannel,ord990122
+itm880495,iPhone X,0.172,699.0,Lisa Mannel,ord990122
+itm880494,Fire Stick 4K,0.28,89.99,Lisa Mannel,ord990122
+itm880491,iPhone 11,0.166,799.0,Lisa Mannel,ord990122
+itm880490,Echo Show 5,0.88,89.99,Lisa Mannel,ord990122
+itm880496,Kindle,0.483,79.99,Anahita Farhang Ghahfarokhi,ord990123
+itm880499,iPad mini,0.28,449.0,Mohammadreza Fani Sani,ord990124
+itm880500,Echo,0.78,99.99,Mohammadreza Fani Sani,ord990124
+itm880498,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990124
+itm880502,Echo Show 5,0.88,89.99,Mohammadreza Fani Sani,ord990124
+itm880497,Kindle,0.483,79.99,Mohammadreza Fani Sani,ord990124
+itm880501,iPhone 8,0.21,529.0,Mohammadreza Fani Sani,ord990124
+itm880504,Fire Stick 4K,0.28,89.99,Tobias Brockhoff,ord990125
+itm880503,iPad Air,0.44,476.0,Tobias Brockhoff,ord990125
+itm880505,iPhone X,0.172,699.0,Tobias Brockhoff,ord990125
+itm880506,iPad Air,0.44,476.0,Christina Rensinghof,ord990126
+itm880507,iPad,0.483,495.0,Claudia Graf,ord990127
+itm880509,Kindle,0.483,79.99,Claudia Graf,ord990127
+itm880510,Kindle Paperwhite,0.495,129.0,Claudia Graf,ord990127
+itm880508,Echo,0.78,99.99,Claudia Graf,ord990127
+itm880513,Kindle Paperwhite,0.495,129.0,Junxiong Gao,ord990128
+itm880515,iPhone 8,0.21,529.0,Junxiong Gao,ord990128
+itm880512,Echo Show 8,0.98,129.99,Junxiong Gao,ord990128
+itm880511,iPhone 8,0.21,529.0,Junxiong Gao,ord990128
+itm880516,Echo,0.78,99.99,Junxiong Gao,ord990128
+itm880514,Echo Show 8,0.98,129.99,Junxiong Gao,ord990128
+itm880519,iPad mini,0.28,449.0,Tobias Brockhoff,ord990129
+itm880517,Echo Plus,1.28,149.99,Tobias Brockhoff,ord990129
+itm880518,Fire Stick 4K,0.28,89.99,Tobias Brockhoff,ord990129
+itm880520,Echo Plus,1.28,149.99,Mohammadreza Fani Sani,ord990130
+itm880524,iPad,0.483,495.0,Kefang Ding,ord990131
+itm880522,iPhone 8,0.21,529.0,Kefang Ding,ord990131
+itm880521,iPad,0.483,495.0,Kefang Ding,ord990131
+itm880523,Echo Show 5,0.88,89.99,Kefang Ding,ord990131
+itm880528,Kindle Paperwhite,0.495,129.0,Mahnaz Qafari,ord990132
+itm880525,Echo,0.78,99.99,Mahnaz Qafari,ord990132
+itm880526,Kindle Paperwhite,0.495,129.0,Mahnaz Qafari,ord990132
+itm880527,Echo,0.78,99.99,Mahnaz Qafari,ord990132
+itm880531,Echo Studio,1.48,199.99,Junxiong Gao,ord990133
+itm880530,iPad Pro,0.483,1099.0,Junxiong Gao,ord990133
+itm880529,iPad,0.483,495.0,Junxiong Gao,ord990133
+itm880532,MacBook Air,1.25,2200.0,Junxiong Gao,ord990133
+itm880533,Echo Studio,1.48,199.99,Junxiong Gao,ord990133
+itm880534,Echo Show 5,0.88,89.99,Luis Santos,ord990134
+itm880535,Echo Studio,1.48,199.99,Luis Santos,ord990134
+itm880537,iPad Pro,0.483,1099.0,Luis Santos,ord990134
+itm880536,iPad Pro,0.483,1099.0,Luis Santos,ord990134
+itm880538,Fire Stick 4K,0.28,89.99,Anahita Farhang Ghahfarokhi,ord990135
+itm880540,Echo Show 5,0.88,89.99,Anahita Farhang Ghahfarokhi,ord990135
+itm880539,Echo Studio,1.48,199.99,Anahita Farhang Ghahfarokhi,ord990135
+itm880544,MacBook Pro,1.37,2500.0,Wil van der Aalst,ord990136
+itm880543,Echo,0.78,99.99,Wil van der Aalst,ord990136
+itm880542,iPad Air,0.44,476.0,Wil van der Aalst,ord990136
+itm880541,iPhone X,0.172,699.0,Wil van der Aalst,ord990136
+itm880545,iPhone X,0.172,699.0,Wil van der Aalst,ord990136
+itm880546,Fire Stick,0.2,39.99,Junxiong Gao,ord990137
+itm880548,iPhone 11 Pro,0.188,1149.0,Junxiong Gao,ord990137
+itm880547,Kindle,0.483,79.99,Junxiong Gao,ord990137
+itm880549,Echo Plus,1.28,149.99,Junxiong Gao,ord990137
+itm880551,Kindle Paperwhite,0.495,129.0,Christine Dobbert,ord990138
+itm880550,Echo,0.78,99.99,Christine Dobbert,ord990138
+itm880553,MacBook Air,1.25,2200.0,Tobias Brockhoff,ord990139
+itm880556,Fire Stick 4K,0.28,89.99,Tobias Brockhoff,ord990139
+itm880554,Kindle,0.483,79.99,Tobias Brockhoff,ord990139
+itm880552,iPad mini,0.28,449.0,Tobias Brockhoff,ord990139
+itm880555,iPad Pro,0.483,1099.0,Tobias Brockhoff,ord990139
+itm880558,Fire Stick 4K,0.28,89.99,Seran Uysal,ord990140
+itm880559,Echo Plus,1.28,149.99,Seran Uysal,ord990140
+itm880557,Kindle,0.483,79.99,Seran Uysal,ord990140
+itm880561,iPhone 8,0.21,529.0,Mahsa Bafrani,ord990141
+itm880562,iPad mini,0.28,449.0,Mahsa Bafrani,ord990141
+itm880560,Echo Studio,1.48,199.99,Mahsa Bafrani,ord990141
+itm880563,iPad,0.483,495.0,Seran Uysal,ord990142
+itm880565,iPad Pro,0.483,1099.0,Junxiong Gao,ord990143
+itm880564,iPhone 11 Pro,0.188,1149.0,Junxiong Gao,ord990143
+itm880567,Fire Stick 4K,0.28,89.99,Junxiong Gao,ord990143
+itm880566,iPhone X,0.172,699.0,Junxiong Gao,ord990143
+itm880570,Echo Studio,1.48,199.99,Wil van der Aalst,ord990144
+itm880571,Fire Stick,0.2,39.99,Wil van der Aalst,ord990144
+itm880572,Fire Stick,0.2,39.99,Wil van der Aalst,ord990144
+itm880568,MacBook Air,1.25,2200.0,Wil van der Aalst,ord990144
+itm880569,Echo Show 5,0.88,89.99,Wil van der Aalst,ord990144
+itm880575,Echo Show 8,0.98,129.99,Anahita Farhang Ghahfarokhi,ord990145
+itm880577,Echo Plus,1.28,149.99,Anahita Farhang Ghahfarokhi,ord990145
+itm880576,iPhone 8,0.21,529.0,Anahita Farhang Ghahfarokhi,ord990145
+itm880578,Fire Stick,0.2,39.99,Anahita Farhang Ghahfarokhi,ord990145
+itm880574,iPad mini,0.28,449.0,Anahita Farhang Ghahfarokhi,ord990145
+itm880573,iPad mini,0.28,449.0,Anahita Farhang Ghahfarokhi,ord990145
+itm880582,Fire Stick,0.2,39.99,Mohammadreza Fani Sani,ord990146
+itm880581,Echo Studio,1.48,199.99,Mohammadreza Fani Sani,ord990146
+itm880579,Fire Stick,0.2,39.99,Mohammadreza Fani Sani,ord990146
+itm880580,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990146
+itm880583,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990146
+itm880590,Echo Dot,0.38,29.99,Tobias Brockhoff,ord990147
+itm880588,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990147
+itm880587,iPhone 8,0.21,529.0,Tobias Brockhoff,ord990147
+itm880589,Kindle,0.483,79.99,Tobias Brockhoff,ord990147
+itm880585,iPhone X,0.172,699.0,Tobias Brockhoff,ord990147
+itm880584,Echo Show 5,0.88,89.99,Tobias Brockhoff,ord990147
+itm880586,iPhone 11,0.166,799.0,Tobias Brockhoff,ord990147
+itm880592,MacBook Pro,1.37,2500.0,Wil van der Aalst,ord990148
+itm880593,iPad Air,0.44,476.0,Wil van der Aalst,ord990148
+itm880594,iPad mini,0.28,449.0,Wil van der Aalst,ord990148
+itm880591,Echo Plus,1.28,149.99,Wil van der Aalst,ord990148
+itm880596,Echo Dot,0.38,29.99,Claudia Graf,ord990149
+itm880595,Echo Show 5,0.88,89.99,Claudia Graf,ord990149
+itm880597,Fire Stick,0.2,39.99,Marco Pegoraro,ord990150
+itm880598,Echo,0.78,99.99,Marco Pegoraro,ord990150
+itm880599,iPhone 11,0.166,799.0,Marco Pegoraro,ord990150
+itm880600,Kindle,0.483,79.99,Marco Pegoraro,ord990150
+itm880602,iPad Air,0.44,476.0,Wil van der Aalst,ord990151
+itm880601,iPhone 11 Pro,0.188,1149.0,Wil van der Aalst,ord990151
+itm880603,Fire Stick,0.2,39.99,Wil van der Aalst,ord990151
+itm880606,Echo Show 5,0.88,89.99,Luis Santos,ord990152
+itm880605,iPad Air,0.44,476.0,Luis Santos,ord990152
+itm880604,Echo,0.78,99.99,Luis Santos,ord990152
+itm880614,iPad Air,0.44,476.0,Marco Pegoraro,ord990153
+itm880611,iPhone 11,0.166,799.0,Marco Pegoraro,ord990153
+itm880610,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990153
+itm880607,Echo Plus,1.28,149.99,Marco Pegoraro,ord990153
+itm880609,Fire Stick 4K,0.28,89.99,Marco Pegoraro,ord990153
+itm880613,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990153
+itm880608,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990153
+itm880612,Echo Dot,0.38,29.99,Marco Pegoraro,ord990153
+itm880615,Echo Plus,1.28,149.99,Claudia Graf,ord990154
+itm880617,MacBook Air,1.25,2200.0,Claudia Graf,ord990154
+itm880616,Echo Dot,0.38,29.99,Claudia Graf,ord990154
+itm880618,iPhone 8,0.21,529.0,Wil van der Aalst,ord990155
+itm880619,Fire Stick,0.2,39.99,Wil van der Aalst,ord990155
+itm880620,Kindle Paperwhite,0.495,129.0,Wil van der Aalst,ord990155
+itm880623,iPad,0.483,495.0,Lisa Mannel,ord990156
+itm880624,Fire Stick 4K,0.28,89.99,Lisa Mannel,ord990156
+itm880626,iPad mini,0.28,449.0,Lisa Mannel,ord990156
+itm880625,iPhone X,0.172,699.0,Lisa Mannel,ord990156
+itm880621,iPad mini,0.28,449.0,Lisa Mannel,ord990156
+itm880622,iPad,0.483,495.0,Lisa Mannel,ord990156
+itm880628,iPhone X,0.172,699.0,Gyunam Park,ord990157
+itm880627,iPad Pro,0.483,1099.0,Gyunam Park,ord990157
+itm880629,iPhone 11,0.166,799.0,Gyunam Park,ord990157
+itm880631,iPhone 11 Pro,0.188,1149.0,Mohammadreza Fani Sani,ord990158
+itm880630,Kindle Paperwhite,0.495,129.0,Mohammadreza Fani Sani,ord990158
+itm880632,Fire Stick 4K,0.28,89.99,Mohammadreza Fani Sani,ord990158
+itm880634,Echo Show 5,0.88,89.99,Mahnaz Qafari,ord990159
+itm880635,Echo,0.78,99.99,Mahnaz Qafari,ord990159
+itm880636,Kindle Paperwhite,0.495,129.0,Mahnaz Qafari,ord990159
+itm880637,Kindle Paperwhite,0.495,129.0,Mahnaz Qafari,ord990159
+itm880633,iPhone 11 Pro,0.188,1149.0,Mahnaz Qafari,ord990159
+itm880641,Echo Plus,1.28,149.99,Junxiong Gao,ord990160
+itm880640,Echo Show 5,0.88,89.99,Junxiong Gao,ord990160
+itm880639,Echo,0.78,99.99,Junxiong Gao,ord990160
+itm880638,MacBook Air,1.25,2200.0,Junxiong Gao,ord990160
+itm880642,Echo Show 5,0.88,89.99,Junxiong Gao,ord990160
+itm880644,Echo Show 8,0.98,129.99,Christine Dobbert,ord990161
+itm880643,iPad mini,0.28,449.0,Christine Dobbert,ord990161
+itm880645,iPad Air,0.44,476.0,Marco Pegoraro,ord990162
+itm880649,iPad,0.483,495.0,Marco Pegoraro,ord990162
+itm880650,iPad Pro,0.483,1099.0,Marco Pegoraro,ord990162
+itm880648,Echo Plus,1.28,149.99,Marco Pegoraro,ord990162
+itm880646,iPad Pro,0.483,1099.0,Marco Pegoraro,ord990162
+itm880647,Echo Show 8,0.98,129.99,Marco Pegoraro,ord990162
+itm880656,Echo Plus,1.28,149.99,Wil van der Aalst,ord990163
+itm880660,Echo Plus,1.28,149.99,Wil van der Aalst,ord990163
+itm880658,MacBook Pro,1.37,2500.0,Wil van der Aalst,ord990163
+itm880652,MacBook Pro,1.37,2500.0,Wil van der Aalst,ord990163
+itm880651,iPhone 8,0.21,529.0,Wil van der Aalst,ord990163
+itm880657,iPhone 11,0.166,799.0,Wil van der Aalst,ord990163
+itm880653,Echo Show 8,0.98,129.99,Wil van der Aalst,ord990163
+itm880659,Echo Show 8,0.98,129.99,Wil van der Aalst,ord990163
+itm880654,Echo Dot,0.38,29.99,Wil van der Aalst,ord990163
+itm880655,Echo Plus,1.28,149.99,Wil van der Aalst,ord990163
+itm880665,Echo Plus,1.28,149.99,Tobias Brockhoff,ord990164
+itm880662,MacBook Air,1.25,2200.0,Tobias Brockhoff,ord990164
+itm880663,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990164
+itm880664,iPad Pro,0.483,1099.0,Tobias Brockhoff,ord990164
+itm880661,Echo Dot,0.38,29.99,Tobias Brockhoff,ord990164
+itm880667,Echo Show 8,0.98,129.99,Mohammadreza Fani Sani,ord990165
+itm880666,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990165
+itm880668,Kindle Paperwhite,0.495,129.0,Gyunam Park,ord990166
+itm880669,Echo Dot,0.38,29.99,Gyunam Park,ord990166
+itm880672,iPad mini,0.28,449.0,Gyunam Park,ord990166
+itm880673,Echo Show 8,0.98,129.99,Gyunam Park,ord990166
+itm880671,iPhone 11,0.166,799.0,Gyunam Park,ord990166
+itm880670,iPad mini,0.28,449.0,Gyunam Park,ord990166
+itm880677,iPhone 8,0.21,529.0,Tobias Brockhoff,ord990167
+itm880675,Echo Dot,0.38,29.99,Tobias Brockhoff,ord990167
+itm880674,MacBook Air,1.25,2200.0,Tobias Brockhoff,ord990167
+itm880676,Echo Plus,1.28,149.99,Tobias Brockhoff,ord990167
+itm880681,Echo Studio,1.48,199.99,Mahnaz Qafari,ord990168
+itm880679,iPhone 11 Pro,0.188,1149.0,Mahnaz Qafari,ord990168
+itm880680,Kindle Paperwhite,0.495,129.0,Mahnaz Qafari,ord990168
+itm880678,iPhone 11 Pro,0.188,1149.0,Mahnaz Qafari,ord990168
+itm880685,iPhone X,0.172,699.0,Lisa Mannel,ord990169
+itm880682,iPad mini,0.28,449.0,Lisa Mannel,ord990169
+itm880686,MacBook Air,1.25,2200.0,Lisa Mannel,ord990169
+itm880683,Kindle Paperwhite,0.495,129.0,Lisa Mannel,ord990169
+itm880684,Kindle Paperwhite,0.495,129.0,Lisa Mannel,ord990169
+itm880689,iPhone 11 Pro,0.188,1149.0,Seran Uysal,ord990170
+itm880688,iPad,0.483,495.0,Seran Uysal,ord990170
+itm880687,Echo Studio,1.48,199.99,Seran Uysal,ord990170
+itm880690,iPad mini,0.28,449.0,Mohammadreza Fani Sani,ord990171
+itm880691,iPad mini,0.28,449.0,Mohammadreza Fani Sani,ord990171
+itm880695,Echo Plus,1.28,149.99,Claudia Graf,ord990172
+itm880696,iPad Pro,0.483,1099.0,Claudia Graf,ord990172
+itm880693,iPad Pro,0.483,1099.0,Claudia Graf,ord990172
+itm880694,Fire Stick,0.2,39.99,Claudia Graf,ord990172
+itm880692,iPhone X,0.172,699.0,Claudia Graf,ord990172
+itm880697,iPhone 11,0.166,799.0,Mahsa Bafrani,ord990173
+itm880698,iPhone 11,0.166,799.0,Mohammadreza Fani Sani,ord990174
+itm880701,Echo Studio,1.48,199.99,Mohammadreza Fani Sani,ord990174
+itm880700,Fire Stick 4K,0.28,89.99,Mohammadreza Fani Sani,ord990174
+itm880702,iPad Pro,0.483,1099.0,Mohammadreza Fani Sani,ord990174
+itm880703,iPad,0.483,495.0,Mohammadreza Fani Sani,ord990174
+itm880699,iPhone 11,0.166,799.0,Mohammadreza Fani Sani,ord990174
+itm880704,iPhone 8,0.21,529.0,Junxiong Gao,ord990175
+itm880705,iPad Pro,0.483,1099.0,Junxiong Gao,ord990175
+itm880707,iPad,0.483,495.0,Christina Rensinghof,ord990176
+itm880706,Kindle,0.483,79.99,Christina Rensinghof,ord990176
+itm880708,iPhone 11,0.166,799.0,Christina Rensinghof,ord990176
+itm880710,iPad mini,0.28,449.0,Tobias Brockhoff,ord990177
+itm880711,Kindle Paperwhite,0.495,129.0,Tobias Brockhoff,ord990177
+itm880709,iPhone 11 Pro,0.188,1149.0,Tobias Brockhoff,ord990177
+itm880712,iPhone 8,0.21,529.0,Mahnaz Qafari,ord990178
+itm880714,MacBook Air,1.25,2200.0,Mahnaz Qafari,ord990178
+itm880713,Echo Dot,0.38,29.99,Mahnaz Qafari,ord990178
+itm880715,Kindle,0.483,79.99,Junxiong Gao,ord990179
+itm880716,iPad Pro,0.483,1099.0,Junxiong Gao,ord990179
+itm880721,Echo Plus,1.28,149.99,Marco Pegoraro,ord990180
+itm880720,Kindle Paperwhite,0.495,129.0,Marco Pegoraro,ord990180
+itm880718,Echo Show 8,0.98,129.99,Marco Pegoraro,ord990180
+itm880719,Echo Show 5,0.88,89.99,Marco Pegoraro,ord990180
+itm880722,iPad Air,0.44,476.0,Marco Pegoraro,ord990180
+itm880717,Echo,0.78,99.99,Marco Pegoraro,ord990180
+itm880724,Echo Show 5,0.88,89.99,Tobias Brockhoff,ord990181
+itm880723,iPad mini,0.28,449.0,Tobias Brockhoff,ord990181
+itm880726,Fire Stick 4K,0.28,89.99,Tobias Brockhoff,ord990181
+itm880725,iPad,0.483,495.0,Tobias Brockhoff,ord990181
+itm880728,iPad,0.483,495.0,Tobias Brockhoff,ord990181
+itm880727,Echo Plus,1.28,149.99,Tobias Brockhoff,ord990181
+itm880731,Echo Dot,0.38,29.99,Marco Pegoraro,ord990182
+itm880730,Fire Stick 4K,0.28,89.99,Marco Pegoraro,ord990182
+itm880729,Echo Show 8,0.98,129.99,Marco Pegoraro,ord990182
+itm880734,MacBook Air,1.25,2200.0,Anahita Farhang Ghahfarokhi,ord990183
+itm880732,MacBook Air,1.25,2200.0,Anahita Farhang Ghahfarokhi,ord990183
+itm880733,iPhone 11 Pro,0.188,1149.0,Anahita Farhang Ghahfarokhi,ord990183
+itm880736,Fire Stick,0.2,39.99,Marco Pegoraro,ord990184
+itm880737,iPhone X,0.172,699.0,Marco Pegoraro,ord990184
+itm880735,Echo Show 8,0.98,129.99,Marco Pegoraro,ord990184
+itm880741,Fire Stick,0.2,39.99,Kefang Ding,ord990185
+itm880739,Echo Dot,0.38,29.99,Kefang Ding,ord990185
+itm880740,iPad Air,0.44,476.0,Kefang Ding,ord990185
+itm880742,Echo Show 8,0.98,129.99,Kefang Ding,ord990185
+itm880738,iPad mini,0.28,449.0,Kefang Ding,ord990185
+itm880745,Echo Show 8,0.98,129.99,Christine Dobbert,ord990186
+itm880744,Echo Show 5,0.88,89.99,Christine Dobbert,ord990186
+itm880743,Echo Dot,0.38,29.99,Christine Dobbert,ord990186
+itm880747,Kindle Paperwhite,0.495,129.0,Mohammadreza Fani Sani,ord990187
+itm880746,Kindle Paperwhite,0.495,129.0,Mohammadreza Fani Sani,ord990187
+itm880748,iPad Air,0.44,476.0,Mohammadreza Fani Sani,ord990187
+itm880750,Echo Studio,1.48,199.99,Christina Rensinghof,ord990188
+itm880749,iPad,0.483,495.0,Christina Rensinghof,ord990188
+itm880751,Kindle,0.483,79.99,Anahita Farhang Ghahfarokhi,ord990189
+itm880752,MacBook Air,1.25,2200.0,Christina Rensinghof,ord990190
+itm880755,Fire Stick,0.2,39.99,Christina Rensinghof,ord990190
+itm880756,Kindle Paperwhite,0.495,129.0,Christina Rensinghof,ord990190
+itm880754,iPad Air,0.44,476.0,Christina Rensinghof,ord990190
+itm880753,MacBook Pro,1.37,2500.0,Christina Rensinghof,ord990190
+itm880757,iPhone 11 Pro,0.188,1149.0,Lisa Mannel,ord990191
+itm880759,Echo,0.78,99.99,Lisa Mannel,ord990191
+itm880758,Fire Stick 4K,0.28,89.99,Lisa Mannel,ord990191
+itm880762,iPhone 11 Pro,0.188,1149.0,Mahsa Bafrani,ord990192
+itm880764,Kindle Paperwhite,0.495,129.0,Mahsa Bafrani,ord990192
+itm880761,Kindle,0.483,79.99,Mahsa Bafrani,ord990192
+itm880763,Echo Show 5,0.88,89.99,Mahsa Bafrani,ord990192
+itm880760,iPad mini,0.28,449.0,Mahsa Bafrani,ord990192
+itm880765,Echo,0.78,99.99,Luis Santos,ord990193
+itm880767,Echo,0.78,99.99,Luis Santos,ord990193
+itm880766,iPad,0.483,495.0,Luis Santos,ord990193
+itm880768,Echo,0.78,99.99,Claudia Graf,ord990194
+itm880769,iPad Air,0.44,476.0,Claudia Graf,ord990194
+itm880770,iPhone 11,0.166,799.0,Christine Dobbert,ord990195
+itm880772,Echo Show 8,0.98,129.99,Christine Dobbert,ord990195
+itm880771,iPhone X,0.172,699.0,Christine Dobbert,ord990195
+itm880773,iPhone 8,0.21,529.0,Christine Dobbert,ord990195
+itm880775,Fire Stick 4K,0.28,89.99,Gyunam Park,ord990196
+itm880774,iPhone X,0.172,699.0,Gyunam Park,ord990196
+itm880776,iPhone 11,0.166,799.0,Gyunam Park,ord990196
+itm880777,Echo Studio,1.48,199.99,Gyunam Park,ord990196
+itm880778,iPhone 11,0.166,799.0,Christine Dobbert,ord990197
+itm880780,Fire Stick 4K,0.28,89.99,Christine Dobbert,ord990197
+itm880779,Echo,0.78,99.99,Christine Dobbert,ord990197
+itm880785,iPhone 11,0.166,799.0,Mahsa Bafrani,ord990198
+itm880782,Fire Stick 4K,0.28,89.99,Mahsa Bafrani,ord990198
+itm880783,Echo,0.78,99.99,Mahsa Bafrani,ord990198
+itm880781,Echo Studio,1.48,199.99,Mahsa Bafrani,ord990198
+itm880784,Echo Studio,1.48,199.99,Mahsa Bafrani,ord990198
+itm880787,iPad mini,0.28,449.0,Seran Uysal,ord990199
+itm880786,Fire Stick 4K,0.28,89.99,Seran Uysal,ord990199
+itm880788,iPhone 11 Pro,0.188,1149.0,Seran Uysal,ord990199
+itm880790,iPad,0.483,495.0,Lisa Mannel,ord990200
+itm880791,MacBook Air,1.25,2200.0,Lisa Mannel,ord990200
+itm880789,Echo Show 5,0.88,89.99,Lisa Mannel,ord990200

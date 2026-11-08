@@ -1,0 +1,14 @@
+-- KPI: Order to Delivery (days)
+-- Used in: Part 2 (O2-15), Part 3 (B3-13). Slide 30.
+-- Average days from the first 'place order' to the last 'make delivery' per order.
+--   REMAP_TIMESTAMPS  converts the timestamps to days
+--   CALC_THROUGHPUT   time between the two events for each case
+--   AVG               average over all cases that reach 'make delivery'
+-- Result: 20.17 days. The Throughput Time Explorer shows 20.1 days.
+
+AVG(
+    CALC_THROUGHPUT(
+        FIRST_OCCURRENCE['place order'] TO LAST_OCCURRENCE['make delivery'],
+        REMAP_TIMESTAMPS("events"."START TIME", DAYS)
+    )
+)

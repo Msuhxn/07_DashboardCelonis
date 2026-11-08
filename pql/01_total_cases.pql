@@ -1,0 +1,7 @@
+-- KPI: Total Cases
+-- Used in: Part 2 (O2-11), Part 3 (B3-12). Slide 12.
+-- Counts every order (case) in the cases table.
+-- A KPI card needs an aggregation. A bare column returns a list and fails.
+-- Result: 10,000
+
+COUNT("cases"."CASE")
